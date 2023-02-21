@@ -1,0 +1,20 @@
+Customer-
+{"CustomerId" : 1,                   
+    "state": "state", 
+    "City": "Mountain diew", 
+    "Streetaddress": "456 Main Street",
+    "AddressType" : 2,
+    "IsBillingSameAsShipping": "false"
+},
+
+Addresses-
+{
+ "Email": "roceries@myemail.com",                
+  "fname": "Jeshal",
+  "mname": "G",
+  "lname": "Groceries",
+  "suffix": "Jr",
+  "title": "Mr",
+  "company": "King Groceries",
+  "country": "USA"
+}
