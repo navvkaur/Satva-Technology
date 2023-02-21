@@ -18,7 +18,7 @@ exports.CountryApi = async  (req,res,next)=>{
     if(error.length !== 0){
         res.status(400).json(error)
     }   
-    if(error.length == 0){
+     else if(error.length == 0){
         
         if((AddressType == 1 || AddressType == 2)  && IsBillingSameAsShipping == 'true')
         {
